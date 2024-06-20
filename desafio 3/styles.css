@@ -1,0 +1,87 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top, .bottom{
+    flex: 1;
+}
+
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    background-color: #FEECE0;
+    padding-top: 40px;
+}
+
+.pamonha {
+    width: 300px;
+    height: auto;
+    margin-left: 330px;
+    margin-right: 20px;
+}
+
+.texto-top {
+    margin-top: 30px
+}
+
+.h1-top {
+    text-align: left;
+    font-size: 60px;
+    color: #58190A;
+    display: inline;
+    position: relative;
+    margin-left: 32px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.p1-top {
+    text-align: left;
+    font-size: 25px;
+    color: #58190A;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 32px;
+}
+
+.p2-top {
+    text-align: left;
+    font-size: 25px;
+    color: #9B6647;
+    position: relative;
+    margin-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.bottom {
+    background-color: #9B6647;
+    display: flex;
+}
+
+.left, .right {
+    color: white;
+    margin-top: 30px;
+}
+
+.left {
+    margin-left: 330px;
+}
+
+.right {
+    margin-left: 50px;
+}
+
+li {
+    font-size: 20px;
+}
