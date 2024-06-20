@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    overflow-y: hidden;
+    font-family: "Outfit", sans-serif;
+    background-image: url('imagens/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-image {
+    position: absolute;
+    top: 41%;
+    right: 500px;
+    transform: translateY(-50%);
+}
+
+.right-image {
+    position: absolute;
+    top: 41%;
+    right: 180px;
+    transform: translateY(-50%);
+}
+
+lottie-player {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    right: 250px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.content {
+    width: 310px;
+    height: 100px;
+    margin: 200px auto 0;
+    position: relative;
+    right: 300px;
+}
+
+.buttons {
+    text-align: left;
+    margin-top: 35px;
+}
+
+button {
+    background-color: #151557;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #212187;
+}
+
+footer {
+    background-color: #BF7BFB;
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
