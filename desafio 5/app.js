@@ -69,7 +69,5 @@ adicionarCartao.addEventListener('click', function(e) {
         alert(mensagemErro);
     } else {
         alert('Formulário enviado com sucesso!');
-        // Aqui você pode adicionar o código para enviar o formulário, por exemplo:
-        // document.querySelector('form').submit();
     }
 });
