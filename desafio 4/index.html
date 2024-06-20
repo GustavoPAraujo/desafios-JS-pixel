@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap">
+
+</head>
+
+<body>
+
+    <div class="content">
+
+        <img src="imagens/img.png" alt="imagem" class="imagem">
+
+        <div class="left">
+
+            <img src="imagens/logo.png" alt="imagem" class="logo">
+
+            <h1>Acesse a plataforma</h1>
+            <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+
+            <form id="loginForm">
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" placeholder="Digite seu e-mail">
+                    <span id="emailError" style="color: red;"></span>
+                </div>
+                <div>
+                    <div class="senha">
+                        <label for="senha">Senha:</label>
+                        <a href="">Esqueceu a senha?</a>
+                    </div>
+                    <input type="text" id="senha" name="senha" placeholder="Digite sua senha">
+                    <span id="senhaError" style="color: red;"></span>
+                </div>
+                
+
+                <button type="submit">Entrar</button>
+            </form>
+
+            <div class="final">
+
+                <p>Ainda não tem uma conta?</p>
+                <div class="inscreva-se">
+                    <a href="">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
